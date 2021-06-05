@@ -4,12 +4,17 @@
 	.lit-23 {
         font-size: 16px;
         letter-spacing: 2px;
+        line-height: 32px;
     }
 
-	.med-124 {
+	.sem-124 {
         font-size: 45px;
         line-height: 44px;
         letter-spacing: -1px;
+    }
+
+    .sem-60 {
+        font-size: 34px;
     }
 
     .reg-22 {
@@ -19,6 +24,11 @@
 
     .reg-24 {
         font-size: 18px;
+        line-height: 25px;
+    }
+
+    .reg-24 {
+        font-size: 17px;
     }
 
     .btn-tag-1 {
@@ -27,6 +37,16 @@
 
     .btn-tag-1:last-child {
         margin-top: 20px;
+    }
+
+    .mt-sep-130 {
+        margin-top: 450px;
+    }
+
+    /* decoration starts */
+    .deco {
+        top: 620px;
+        width: 30%;
     }
 
     /* header starts*/
@@ -77,16 +97,25 @@
         background-size: cover;
         height: 700px;
     }
+
+    /* elegant starts */
+    .elegant {
+        margin-top: 250px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .reg-24 {
+        font-size: 19px;
+    }
+    
 	.lit-23 {
         font-size: 18px;
         letter-spacing: 5px;
     }
 
-	.med-124 {
+	.sem-124 {
         font-size: 81px;
         line-height: 78px;
         letter-spacing: -3px;
@@ -95,6 +124,11 @@
     .reg-22 {
         font-size: 18px;
         letter-spacing: 0px;
+    }
+
+    /* decoration starts */
+    .deco {
+        top: 670px;
     }
 
     /*header starts */
@@ -117,7 +151,7 @@
     }
 
     .hero-inner {
-        margin-left: 8%;
+        margin-left: 0;
     }
 
     .social-icons {
@@ -125,21 +159,41 @@
     }
 
     /* september starts */
+    .offset-md-sep {
+        margin-left: 8% !important;
+    }
+
+    .col-md-sep {
+        -ms-flex: 0 0 80.666667% !important;
+        flex: 0 0 80.666667% !important;
+        max-width: 80.666667% !important;
+    }
+
     .september {
         background-position: top;
         background-size: contain;
-        height: 700px;
+        height: 1080px;
+    }
+
+    /* elegant starts */
+    .elegant {
+        position: relative;
+        bottom: 100px;
     }
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .reg-24 {
+        font-size: 19px;
+    }
+
 	.lit-23 {
         font-size: 18px;
         letter-spacing: 5px;
     }
 
-	.med-124 {
+	.sem-124 {
         font-size: 81px;
         line-height: 78px;
         letter-spacing: -3px;
@@ -148,6 +202,11 @@
     .reg-22 {
         font-size: 18px;
         letter-spacing: 0px;
+    }
+
+    /* decoration starts */
+    .deco {
+        top: 730px;
     }
 
     /*header starts */
@@ -166,11 +225,11 @@
         background-position: center;
         background-size: contain;
         width: 100%;
-        height: 940px;
+        height: 1080px;
     }
 
     .hero-inner {
-        margin-left: 8%;
+        margin-left: 0;
     }
 
     .social-icons {
@@ -178,21 +237,41 @@
     }
 
     /* september starts */
+    .offset-md-sep {
+        margin-left: 8% !important;
+    }
+
+    .col-md-sep {
+        -ms-flex: 0 0 80.666667% !important;
+        flex: 0 0 80.666667% !important;
+        max-width: 80.666667% !important;
+    }
+
     .september {
         background-position: top;
         background-size: contain;
-        height: 700px;
+        height: 1080px;
+    }
+
+    /* elegant starts */
+    .elegant {
+        position: relative;
+        bottom: 100px;
     }
 }
 
 /* Large devices(md) (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1299.98px) {
+    .reg-24 {
+        font-size: 19px;
+    }
+
 	.lit-23 {
         font-size: 18px;
         letter-spacing: 7px;
     }
 
-	.med-124 {
+	.sem-124 {
         font-size: 100px;
         line-height: 98px;
         letter-spacing: -6px;
@@ -201,6 +280,19 @@
     .reg-22 {
         font-size: 18px;
         letter-spacing: 1px;
+    }
+
+    .mt-300 {
+        margin-top: 200px;
+    }
+
+    .mt-sep-130 {
+        margin-top: 50px;
+    }
+
+    /* decorations starts*/
+    .deco {
+        top: 710px;
     }
 
     /* header starts */
@@ -227,25 +319,45 @@
     }
 
     .hero-inner {
-        margin-left: 10%;
+        margin-left: 0;
     }
 
     /* september starts */
+    .offset-md-sep {
+        margin-left: 35% !important;
+    }
+
+    .col-md-sep {
+        -ms-flex: 0 0 60.666667% !important;
+        flex: 0 0 60.666667% !important;
+        max-width: 60.666667% !important;
+    }
+
     .september {
         background-position: top;
         background-size: contain;
         height: 740px;
     }
+
+    /* elegant starts */
+    .elegant {
+        position: relative;
+        bottom: 90px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1441.98px){
+@media (min-width: 1300px) and (max-width: 1441.98px){
+    .reg-24 {
+        font-size: 21px;
+    }
+
     .lit-23 {
         font-size: 20px;
         letter-spacing: 8px;
     }
 
-	.med-124 {
+	.sem-124 {
         font-size: 110px;
         line-height: 107px;
         letter-spacing: -6px;
@@ -254,6 +366,19 @@
     .reg-22 {
         font-size: 20px;
         letter-spacing: 1px;
+    }
+
+    .mt-300 {
+        margin-top: 200px;
+    }
+
+    .mt-sep-130 {
+        margin-top: 130px;
+    }
+
+    /* decorations */
+    .deco {
+        top: 716px;
     }
 
     /*header starts */
@@ -284,6 +409,11 @@
         background-position: top;
         height: 700px;
     }
+
+    /* elegant starts */
+    .elegant {
+        margin-top: 100px;
+    }
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
@@ -307,7 +437,7 @@
 *
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
-	.med-124 {
+	.sem-124 {
         font-size: 37px;
         line-height: 37px;
     }
@@ -316,16 +446,36 @@
         display: block;
         margin-top: 10px;
     }
+
+    /* decoration starts */
+    .deco {
+        top: 660px;
+    }
+
+    /* elegant starts */
+    .elegant{
+        margin-top: 390px;
+    }
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
-	.med-124 {
+	.sem-124 {
         font-size: 44px;
     }
 
     .btn-tag-1:last-child {
         display: block;
         margin-top: 10px;
+    }
+
+    /* decoration starts */
+    .deco {
+        top: 665px;
+    }
+
+    /* elegant starts */
+    .elegant{
+        margin-top: 300px;
     }
 }
