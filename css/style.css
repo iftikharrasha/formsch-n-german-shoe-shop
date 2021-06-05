@@ -93,6 +93,7 @@ a, select , input , textarea , button{
 .reg-30{
 	font-family: 'Playfair Display', serif;
 	font-size: 30px;
+    line-height: 33px;
 }
 
 .reg-24{
@@ -311,3 +312,21 @@ nav .show {
 }
 
 /* elegant starts */
+.elegant{
+    overflow: hidden;
+}
+
+/* milestone starts */
+.milestone-item{
+    position: relative;
+}
+
+.m-item-details{
+    background-color: #fff;
+    width: 500px;
+    min-height: 420px;
+    padding: 100px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
