@@ -1,0 +1,96 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #F7F8FA;
+	background-color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+a{
+	margin:0;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+a, select , input , textarea , button{
+	outline: none !important;
+}
+
+/* c_custom{
+	1640
+} */
+
+/* colors */
+.c-tag-1{
+	color: #F8F6F1 !important;
+}
+
+.c-tag-2{
+	color: #a68260 !important;
+}
+
+.c-tag-3{
+	color: #000000 !important;
+}
+
+.c-tag-4{
+	color: #FFFFFF !important;
+}
+
+/* fonts */
+.med-124{
+	font-family: 'Playfair Display', serif;
+	font-size: 124px;
+	font-weight: 500;
+}
+
+.med-60{
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	font-weight: 500;
+}
+
+.reg-30{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+
+.reg-24{
+	font-size: 24px;
+}
+
+.reg-22{
+	font-size: 22px;
+}
+
+.reg-16{
+	font-size: 16px;
+}
+
+.lit-23{
+	font-size: 23px;
+	font-weight: 300;
+}
+/* header starts */
