@@ -108,6 +108,10 @@
     </section>
 
     <section class="milestone pt-5">
+
+        <div class="stitch">
+            <img class="img-fluid" src="img/stitch.png" alt="stitch">
+        </div>
         <div class="container c_custom">
             <div class="row pb-3">
                 <div class="col-md-12">
@@ -122,7 +126,7 @@
                            <img class="img-fluid" src="img/2001.png" alt="2001">
                        </div>
                        <div class="m-item-details">
-                           <h3 class="c-tag-2 reg-30">September 2001.</h3>
+                           <h3 class="c-tag-2 reg-30 mb-3">September 2001.</h3>
                            <p class="c-tag-3">Gemeinsam eröffnen wir Geschwister, Maria Gracia und Paolo Zuretti, in Bad Godesberg unsere Schuhmanufaktur. Wir haben beide den Meisterbrief erworben und bereits mehrere Jahre Berufserfahrung in verschiedenen Werkstätten gesammelt.</p>
                        </div>
                    </div>
@@ -132,7 +136,7 @@
                             <img class="img-fluid" src="img/2004.png" alt="2004">
                         </div>
                         <div class="m-item-details">
-                            <h3 class="c-tag-2 reg-30">September 2004.</h3>
+                            <h3 class="c-tag-2 reg-30 mb-3">September 2004.</h3>
                             <p class="c-tag-3">Lukas Bischoff beginnt seine Ausbildung bei uns. Heute ist er im Team der Spezialist für die Schäfte-Herstellung.</p>
                         </div>
                     </div>
@@ -142,7 +146,7 @@
                             <img class="img-fluid" src="img/2001.png" alt="2001">
                         </div>
                         <div class="m-item-details">
-                            <h3 class="c-tag-2 reg-30">September 2001.</h3>
+                            <h3 class="c-tag-2 reg-30 mb-3">September 2001.</h3>
                             <p class="c-tag-3">Gemeinsam eröffnen wir Geschwister, Maria Gracia und Paolo Zuretti, in Bad Godesberg unsere Schuhmanufaktur. Wir haben beide den Meisterbrief erworben und bereits mehrere Jahre Berufserfahrung in verschiedenen Werkstätten gesammelt.</p>
                         </div>
                     </div>
@@ -201,7 +205,7 @@
         $(document).ready(function () {
             /* Slick plugin */
             $('.responsive').slick({
-                dots: true,
+                dots: false,
                 arrows: true,
                 infinite: true,
                 autoplay: false,
@@ -216,13 +220,13 @@
                             slidesToShow: 1,
                             slidesToScroll: 1,
                             infinite: true,
-                            dots: true
+                            dots: false
                         }
                     },
                     {
                         breakpoint: 600,
                         settings: {
-                            slidesToShow: 2,
+                            slidesToShow: 1,
                             slidesToScroll: 1
                         }
                     },

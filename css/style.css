@@ -107,10 +107,6 @@ a, select , input , textarea , button{
 	letter-spacing: 2px;
 }
 
-.reg-16{
-	font-size: 16px;
-}
-
 .lit-23{
 	font-size: 23px;
 	font-weight: 300;
@@ -295,12 +291,6 @@ nav .show {
 	font-size: 22px;
 }
 
-/* decorations */
-.deco {
-    position: absolute;
-    top: 870px;
-}
-
 /* september starts */
 .september{
 	background-image: url(../img/september.png);
@@ -317,16 +307,94 @@ nav .show {
 }
 
 /* milestone starts */
-.milestone-item{
+.milestone{
     position: relative;
 }
 
-.m-item-details{
-    background-color: #fff;
-    width: 500px;
-    min-height: 420px;
-    padding: 100px;
+.milestone-item{
+    position: relative;
+    width: 100%;
+    height: 520px;
+}
+
+.m-item-img{
     position: absolute;
-    top: 50px;
+}
+
+.m-item-details {
+    background-color: #fff;
+    width: 60%;
+    min-height: 420px;
+    padding: 90px;
+    position: absolute;
+    top: 45px;
     left: 250px;
+}
+
+.slick-slide:focus {
+	outline: none !important;
+}
+
+.slick-prev:before {
+    content: "‹";
+    position: relative;
+    top: 4px;
+}
+
+.slick-next:before {
+    content: "›";
+    position: relative;
+    top: 4px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+	font-size: 55px;
+    color: #A68260;
+    line-height: 0;
+}
+
+.slick-prev {
+    z-index: 9999;
+    top: 600px;
+    left: auto;
+    right: 200px;
+}
+
+.slick-next {
+    z-index: 9999;
+    top: 600px;
+    right: 100px;
+}
+
+.slick-next, .slick-prev{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #a68260;
+}
+
+.slick-dots {
+    width: 90%;
+}
+
+.slick-dots li button {
+	background: transparent;
+}
+
+.slick-dots li button:before {
+    font-size: 40px;
+    color: #a68260 !important;
+}
+
+/* decorations */
+.deco {
+    position: absolute;
+    top: 870px;
+}
+
+.stitch{
+    position: absolute;
+    top: 420px;
 }
