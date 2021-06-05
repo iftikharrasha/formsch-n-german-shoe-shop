@@ -6,6 +6,10 @@
         line-height: 32px;
     }
 
+    .sem-200 {
+        font-size: 45px;
+    }
+
 	.sem-124 {
         font-size: 45px;
         line-height: 44px;
@@ -36,6 +40,14 @@
 
     .btn-tag-1:last-child {
         margin-top: 20px;
+    }
+
+    .mt--150 {
+        margin-top: -50px;
+    }
+    
+    .mt-200 {
+        margin-top: 50px;
     }
 
     .mt-sep-130 {
@@ -132,6 +144,24 @@
     .slick-dots {
         bottom: -70px;
     }
+
+    /* leistungen starts */
+    .lei-text {
+        bottom: 75px;
+    }
+
+    .leder-text {
+        bottom: 350px;
+        left: 7%;
+    }
+
+    .leder-text h1 span {
+        display: block;
+    }
+
+    .box {
+        top: 200px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -145,6 +175,10 @@
         letter-spacing: 5px;
     }
 
+    .sem-200 {
+        font-size: 100px;
+    }
+
 	.sem-124 {
         font-size: 81px;
         line-height: 78px;
@@ -154,6 +188,14 @@
     .reg-22 {
         font-size: 18px;
         letter-spacing: 0px;
+    }
+
+    .mt--150 {
+        margin-top: -50px;
+    }
+    
+    .mt-200 {
+        margin-top: 100px;
     }
 
     /* decoration starts */
@@ -237,6 +279,24 @@
     .slick-next {
         top: 580px;
     }
+
+    /* leistungen starts */
+    .lei-text {
+        bottom: 110px;
+    }
+
+    .leder-text {
+        bottom: 350px;
+        left: 7%;
+    }
+
+    .leder-text h1 span {
+        display: block;
+    }
+
+    .box {
+        top: 250px;
+    }
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -250,6 +310,10 @@
         letter-spacing: 5px;
     }
 
+    .sem-200 {
+        font-size: 100px;
+    }
+
 	.sem-124 {
         font-size: 81px;
         line-height: 78px;
@@ -259,6 +323,18 @@
     .reg-22 {
         font-size: 18px;
         letter-spacing: 0px;
+    }
+    
+    .mt-200 {
+        margin-top: 100px;
+    }
+
+    .mt--150 {
+        margin-top: -50px;
+    }
+
+    .mx-leder{
+        margin-left: 1rem !important;
     }
 
     /* decoration starts */
@@ -342,6 +418,24 @@
     .slick-next {
         top: 580px;
     }
+
+    /* leistungen starts */
+    .lei-text {
+        bottom: 110px;
+    }
+
+    .leder-text {
+        bottom: 500px;
+        left: 7%;
+    }
+
+    .leder-text h1 span {
+        display: block;
+    }
+
+    .box {
+        top: 300px;
+    }
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -355,6 +449,10 @@
         letter-spacing: 7px;
     }
 
+    .sem-200 {
+        font-size: 130px;
+    }
+
 	.sem-124 {
         font-size: 100px;
         line-height: 98px;
@@ -366,12 +464,24 @@
         letter-spacing: 1px;
     }
 
+    .mt--150 {
+        margin-top: -50px;
+    }
+    
+    .mt-200 {
+        margin-top: 100px;
+    }
+
     .mt-300 {
         margin-top: 200px;
     }
 
     .mt-sep-130 {
         margin-top: 50px;
+    }
+
+    .mx-leder{
+        margin-left: 2rem !important;
     }
 
     /* decorations starts*/
@@ -453,6 +563,20 @@
     .slick-next {
         top: 500px;
     }
+
+    /* leistungen starts */
+    .lei-text {
+        bottom: 130px;
+    }
+
+    .leder-text {
+        bottom: 480px;
+        left: 7%;
+    }
+
+    .box {
+        top: 200px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -466,6 +590,10 @@
         letter-spacing: 8px;
     }
 
+    .sem-200 {
+        font-size: 180px;
+    }
+
 	.sem-124 {
         font-size: 110px;
         line-height: 107px;
@@ -476,6 +604,10 @@
         font-size: 20px;
         letter-spacing: 1px;
     }
+    
+    .mt-200 {
+        margin-top: 150px;
+    }
 
     .mt-300 {
         margin-top: 200px;
@@ -483,6 +615,10 @@
 
     .mt-sep-130 {
         margin-top: 130px;
+    }
+
+    .mx-leder{
+        margin-left: 3rem !important;
     }
 
     /* decorations */
@@ -536,6 +672,22 @@
         top: 45px;
         left: 220px;
     }
+
+    /* leistungen starts */
+    .leder-text {
+        bottom: 480px;
+        left: 10%;
+    }
+
+    /* repair starts */
+    .repair-text {
+        right: 16%;
+        bottom: -10px;
+    }
+
+    .repair-item img {
+        width: 75%;
+    }
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
@@ -582,6 +734,11 @@
     /* milestone starts */
     .slick-dots {
         bottom: -60px;
+    }
+
+    /*leistungen starts */
+    .leder-text {
+        bottom: 400px;
     }
 }
 

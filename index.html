@@ -55,7 +55,7 @@
                         <p class="text-uppercase lit-23">Immer einen Schritt voraus</p>
                         <h1 class="sem-124 mb-5">20 Jahre<br>Schuhmanufaktur<br>Formschön</h1>
                         <div class="call-to-act">
-                            <a class="text-uppercase btn-tag-1 bg-tag-1 reg-22 c-tag-4" href="#button">
+                            <a class="text-uppercase btn-tag-1 bg-tag-1 reg-22 c-tag-4" href="#leistungen">
                                 Das leisten wir für Sie
                             </a>
 
@@ -107,8 +107,7 @@
         </div>
     </section>
 
-    <section class="milestone pt-5">
-
+    <section class="milestone py-5">
         <div class="stitch">
             <img class="img-fluid" src="img/stitch.png" alt="stitch">
         </div>
@@ -119,7 +118,7 @@
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col-md-12 responsive">
+                <div class="col-md-12 responsive1">
                     
                    <div class="milestone-item">
                        <div class="m-item-img">
@@ -152,6 +151,72 @@
                     </div>
 
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="leistungen mt-200" id="leistungen">
+        <div class="coffee-color"></div>
+        <div class="container c_custom">
+            <div class="row py-5">
+                <div class="col-md-12 text-center">
+                    <div class="lei-text">
+                        <h2 class="sem-200 c-tag-5 text-uppercase">Leistungen</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt--150 border-left mx-leder">
+                <div class="leder-text">
+                    <p class="text-uppercase lit-23">Wir lieben Leder</p>
+                    <h3 class="sem-124 mb-5">Das leisten <span>wir für Sie</span></h3>
+                    <div class="box">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="offset-md-6 col-md-6">
+                  <img class="img-fluid" src="img/bild01.png" alt="bild01">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="leistungen">
+        <div class="coffee-color"></div>
+        <div class="container c_custom">
+            <div class="row responsive2">
+
+                <div class="repair-item">
+                    <div class="repair-text">
+                        <h2 class="sem-60 c-tag-2">Reparieren:</h2>
+                        <p class="reg-22 my-5">Kommen Sie mit hochwertigen Lederwaren zu uns, wenn etwas kaputt ist. Wie zum Beispiel: ein eingerissener Riemen am Rucksack, ein Reißverschluss an der Tasche, der sich verhakt hat, schief getretene Stiefelsohlen, ein locker gewordener Schuhabsatz. Der Erhalt von schönen, Ihnen lieb gewordenen Qualitätswaren ist uns ein Anliegen. Wegwerfen war gestern!</p>
+                    </div>
+                    <div class="col-md-9">
+                      <img class="img-fluid" src="img/bild02.png" alt="bild02">
+                    </div>
+                </div>
+
+                <div class="repair-item">
+                    <div class="repair-text">
+                        <h2 class="sem-60 c-tag-2">verbessern:</h2>
+                        <p class="reg-22 my-5">Kommen Sie mit hochwertigen Lederwaren zu uns, wenn etwas kaputt ist. Wie zum Beispiel: <br>
+                            ein eingerissener Riemen am Rucksack, ein Reißverschluss an der Tasche, der sich verhakt hat, schief getretene Stiefelsohlen, ein locker gewordener Schuhabsatz. Der Erhalt von schönen, Ihnen lieb gewordenen Qualitätswaren ist uns ein Anliegen. Wegwerfen war gestern!</p>
+                    </div>
+                    <div class="col-md-9">
+                      <img class="img-fluid" src="img/bild03.png" alt="bild02">
+                    </div>
+                </div>
+
+                <div class="repair-item">
+                    <div class="repair-text">
+                        <h2 class="sem-60 c-tag-2">Kreieren:</h2>
+                        <p class="reg-22 my-5">Sprechen Sie uns an, wenn Sie exklusive Schuhe tragen wollen, Modelle nach Ihren modischen Vorstellungen und der Eigenart Ihrer Füße. Neben der Fertigung individueller Maßschuhe gibt es auch kostengünstigere Varianten, wie etwa die Maßkonfektion mit vielfältigen Wahlmöglichkeiten. Zögern Sie nicht!</p>
+                    </div>
+                    <div class="col-md-9">
+                      <img class="img-fluid" src="img/bild04.png" alt="bild02">
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -204,7 +269,7 @@
     <script>
         $(document).ready(function () {
             /* Slick plugin */
-            $('.responsive').slick({
+            $('.responsive1').slick({
                 dots: false,
                 arrows: true,
                 infinite: true,
@@ -212,6 +277,44 @@
                 autoplaySpeed: 3000,
                 speed: 700,
                 slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            dots: true,
+                            arrows: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            $('.responsive2').slick({
+                dots: false,
+                arrows: true,
+                infinite: true,
+                autoplay: false,
+                autoplaySpeed: 3000,
+                speed: 700,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 responsive: [
                     {

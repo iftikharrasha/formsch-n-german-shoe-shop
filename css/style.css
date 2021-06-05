@@ -42,6 +42,14 @@ a, select , input , textarea , button{
 	max-width: 1640px !important;
 }
 
+.mt--150{
+    margin-top: -150px;
+}
+
+.mt-200{
+	margin-top: 200px;
+}
+
 .mt-300{
 	margin-top: 300px;
 }
@@ -70,12 +78,21 @@ a, select , input , textarea , button{
 	color: #FFFFFF !important;
 }
 
+.c-tag-5{
+    color: #27231F !important;
+}
 /* background */
 .bg-tag-1{
 	background-color: #a68260;
 }
 
 /* fonts */
+.sem-200 {
+	font-family: 'Playfair Display', serif;
+    font-size: 200px;
+	font-weight: 600;
+}
+
 .sem-124{
 	font-family: 'Playfair Display', serif;
 	font-size: 124px;
@@ -119,7 +136,7 @@ a, select , input , textarea , button{
     width: 100%;
     height: auto;
     position: fixed;
-    z-index: 1;
+    z-index: 9999;
 }
 
 .brand {
@@ -284,6 +301,7 @@ nav .show {
     box-sizing: border-box!important;
     display: block;
     direction: ltr!important;
+    z-index: 9999;
 }
 
 .social-icons ul li a{
@@ -354,14 +372,14 @@ nav .show {
     line-height: 0;
 }
 
-.slick-prev {
+.responsive1 .slick-prev {
     z-index: 9999;
     top: 600px;
     left: auto;
     right: 200px;
 }
 
-.slick-next {
+.responsive1 .slick-next {
     z-index: 9999;
     top: 600px;
     right: 100px;
@@ -397,4 +415,121 @@ nav .show {
 .stitch{
     position: absolute;
     top: 420px;
+}
+
+/* leistungen starts */
+.leistungen{
+    background-image: url(../img/curve.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 902px;
+    position: relative;
+}
+
+.coffee-color{
+    position: absolute;
+    width: 100%;
+    height: 902px;
+    top: 0;
+    left: 0;
+    background: rgb(0 0 0 / 25%);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.lei-text {
+    position: relative;
+    bottom: 170px;
+    z-index: 1;
+}
+
+.leder-text{
+    position: absolute;
+    z-index: 1;
+    bottom: 350px;
+    left: 10%;
+}
+
+.box {
+    position: absolute;
+    top: 300px;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.box span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 2px solid #A68260;
+	border-right: 2px solid #A68260;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.box span:nth-child(2)
+{
+	animation-delay: -0.2s;
+}
+
+.box span:nth-child(3)
+{
+	animation-delay: -0.4s;
+}
+
+@keyframes animate{
+	
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+
+.repair-item{
+    width:100%;
+    position: relative;
+}
+
+.repair-text {
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    bottom: 40px;
+    right: 10%;
+}
+
+.repair-text h2 {
+    position: relative;
+    right: 150px;
+}
+
+.repair-item img{
+    width: 85%;
+}
+
+.responsive2{
+    position: relative;
+    z-index: 999;
+}
+
+.responsive2 .slick-prev {
+    z-index: 9999;
+    top: 350px;
+    left: auto;
+    right: 70px;
+}
+
+.responsive2 .slick-next {
+    z-index: 9999;
+    top: 350px;
+    right: -25px;
 }
