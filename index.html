@@ -4,17 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XD to HTML</title>
+    <title>Formschön - XD to HTML</title>
 
     <!--google font-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--font awesome icons-->
+    <script src="https://kit.fontawesome.com/9dbb72da13.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container-fluid">
+            <nav>
+              <button class="toggle-btn" id="hamburger">
+                <p>Menu</p>
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                  <rect width="100" height="10" rx="7"></rect>
+                  <rect width="100" height="10" rx="7" y="30"></rect>
+                  <rect width="100" height="10" rx="7" y="60"></rect>
+                </svg>
+              </button>
+          
+              <ul class="menu hide">
+                <li class="mb-5"><a href="#" class="navLink reg-24 py-5">Jubiläum</a></li>
+                <li class="mb-5"><a href="#" class="navLink reg-24">Chronologie</a></li>
+                <li class="mb-5"><a href="#" class="navLink reg-24">Leistungen</a></li>
+                <li class="mb-5"><a href="#" class="navLink reg-24">Maßschuhe</a></li>
+                <li class="mb-5"><a href="#" class="navLink reg-24">Pflegetipps</a></li>
+                <li class="mb-5"><a href="#" class="navLink reg-24">Stimmen</a></li>
+                <li class="mb-5"><a href="#" class="navLink reg-24">Öffnungszeiten und Kontakt</a></li>
+                <li class="mb-5"><a href="#" class="navLink reg-24">Impressum</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+      
+    <section class="hero" id="hero">
+        <div class="container c_custom">
+            <div class="row">
+                <div class="col-md-9 mt-300">
+                    <div class="hero-inner">
+                        <p class="text-uppercase lit-23">Immer einen Schritt voraus</p>
+                        <h1 class="med-124 mb-5">20 Jahre<br>Schuhmanufaktur<br>Formschön</h1>
+                        <div class="call-to-act">
+                            <a class="text-uppercase btn-tag-1 bg-tag-1 reg-22 c-tag-4" href="#button">
+                                Das leisten wir für Sie
+                            </a>
+
+                            <a class="text-uppercase btn-tag-1 reg-22 c-tag-4" href="#button">
+                                <u>Feiern Sie mit uns!</u> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href=""><i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
