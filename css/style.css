@@ -106,6 +106,9 @@ a, select , input , textarea , button{
     background-color: #F8F6F1;
 }
 
+.bg-tag-3{
+    background-color: #1C1A16;
+}
 /* fonts */
 .sem-200 {
 	font-family: 'Playfair Display', serif;
@@ -695,4 +698,18 @@ nav .show {
 
 .pflege-list ul li p span{
     display: block;
+}
+
+/* impression starts */
+.impressum {
+    height: 1230px;
+}
+
+.impress-inner{
+    position: relative;
+    left: 40%;
+}
+
+.impress-right{
+    padding-bottom: 70px;
 }

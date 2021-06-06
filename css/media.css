@@ -302,6 +302,16 @@
     .pflege-list ul li p span {
         display: inline;
     }
+
+    /* impression starts */
+    .impress-inner {
+        position: static;
+        padding-top: 150px;
+    }
+
+    .pt-im-50 {
+        padding-top: 50px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -579,6 +589,16 @@
 
     .sub-p{
         height: 1200px;
+    }
+
+    /* impression starts */
+    .impress-inner {
+        position: static;
+        padding-top: 150px;
+    }
+
+    .pt-im-50 {
+        padding-top: 50px;
     }
 }
 
@@ -866,6 +886,16 @@
     .sub-p{
         height: 1200px;
     }
+
+    /* impression starts */
+    .impress-inner {
+        position: static;
+        padding-top: 150px;
+    }
+
+    .pt-im-50 {
+        padding-top: 50px;
+    }
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -1111,6 +1141,11 @@
     /* pflege starts */
     .pflege-list ul li p span {
         margin-left: 0 !important;
+    }
+
+    /* impression starts */
+    .impress-inner {
+        left: 14%;
     }
 }
 
