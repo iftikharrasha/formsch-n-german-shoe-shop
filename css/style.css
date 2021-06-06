@@ -662,7 +662,7 @@ nav .show {
 }
 
 /* mabshuhe starts */
-.mabshuhe{
+.subpage{
     background-image: url(../img/mabshuhe.png);
     background-position: center;
     background-size: cover;
@@ -691,4 +691,8 @@ nav .show {
 
 .sub-rect rect{
     fill: #000;
+}
+
+.pflege-list ul li p span{
+    display: block;
 }
