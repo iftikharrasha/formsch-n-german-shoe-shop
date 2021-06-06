@@ -50,6 +50,10 @@ a, select , input , textarea , button{
 	margin-top: 300px;
 }
 
+.py-st-300{
+    padding: 300px 0;
+}
+
 .mt-300{
 	margin-top: 300px;
 }
@@ -84,6 +88,10 @@ a, select , input , textarea , button{
 
 .c-tag-6{
     color: #444341 !important;
+}
+
+.c-tag-7{
+    color: #222222 !important;
 }
 /* background */
 .bg-tag-1{
@@ -381,12 +389,14 @@ nav .show {
     top: 668px;
     left: auto;
     right: 52%;
+    z-index: 1;
 }
 
 .responsive1 .slick-next {
     z-index: 9999;
     top: 668px;
     right: 45%;
+    z-index: 1;
 }
 
 .slick-next, .slick-prev{
@@ -530,12 +540,14 @@ nav .show {
     top: 764px;
     left: auto;
     right: 52%;
+    z-index: 1;
 }
 
 .responsive2 .slick-next {
     z-index: 9999;
     top: 764px;
     right: 45%;
+    z-index: 1;
 }
 
 /* manufaktur starts */
@@ -563,4 +575,27 @@ nav .show {
     width: 50%;
     float: right;
     height: 830px;
+}
+
+/* stimmen starts */
+.stimmen{
+    background-color: #fff;
+}
+
+.stimmen-inner {
+    position: relative;
+    width: 80% !important;
+    left: 10%;
+    padding: 50px 200px;
+    border: 2px solid #A68260;
+}
+
+.responsive3 .slick-prev {
+    left: 2%;
+    z-index: 1;
+}
+
+.responsive3 .slick-next {
+    right: 2%;
+    z-index: 1;
 }

@@ -139,19 +139,7 @@
         padding: 50px 24px;
         text-align: center;
     }
-
-    .slick-prev {
-        top: 580px;
-    }
-
-    .slick-next {
-        top: 580px;
-    }
-
-    .slick-dots {
-        bottom: -70px;
-    }
-
+    
     /* leistungen starts */
     .leistungen {
         height: 550px;
@@ -226,6 +214,19 @@
         float: none;
         height: auto;
         padding: 50px 0;
+    }
+    
+    /*stimmen starts */
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        padding: 20px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 16px;
     }
 }
 
@@ -424,6 +425,21 @@
         height: auto;
         padding: 50px 0;
     }
+
+    /*stimmen starts */
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        width: 70% !important;
+        left: 15%;
+        padding: 50px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 30px;
+    }
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -538,14 +554,6 @@
         width: 65%;
     }
 
-    .slick-prev {
-        top: 580px;
-    }
-
-    .slick-next {
-        top: 580px;
-    }
-
     /* leistungen starts */
     .lei-text {
         bottom: 110px;
@@ -636,6 +644,21 @@
         float: none;
         height: auto;
         padding: 50px 0;
+    }
+
+    /*stimmen starts */
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        width: 70% !important;
+        left: 15%;
+        padding: 50px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 30px;
     }
 }
 
@@ -757,14 +780,6 @@
         left: 180px;
     }
 
-    .slick-prev {
-        top: 500px;
-    }
-
-    .slick-next {
-        top: 500px;
-    }
-
     /* leistungen starts */
     .lei-text {
         bottom: 130px;
@@ -834,12 +849,29 @@
     }
 
     /*zuliebe starts */
+    .zuliebe {
+        padding-top: 100px;
+    }
+
     .zuliebe-right img{
         width: 15%;
     }
 
     .zuliebe-right {
         height: auto;
+    }
+
+    /*stimmen starts */
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        padding: 50px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 50px;
     }
 }
 
@@ -986,6 +1018,11 @@
     .zuliebe-right {
         height: 600px;
     }
+
+    /*stimmen starts */
+    .py-st-300 {
+        padding: 200px 0;
+    }
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
@@ -1034,11 +1071,6 @@
     /* elegant starts */
     .elegant{
         margin-top: 390px;
-    }
-    
-    /* milestone starts */
-    .slick-dots {
-        bottom: -30px;
     }
 
     /*leistungen starts */
@@ -1105,10 +1137,6 @@
     }
 
     /* milestone starts */
-    .slick-dots {
-        bottom: -50px;
-    }
-
     .m-item-details {
         top: 135px;
     }
