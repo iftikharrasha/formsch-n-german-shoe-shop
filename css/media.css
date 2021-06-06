@@ -60,6 +60,11 @@
         width: 30%;
     }
 
+    .deco2 {
+        width: 30%;
+        top: 600px;
+    }
+
     .stitch{
         top: 600px;
     }
@@ -227,6 +232,61 @@
 
     .stimmen-inner h2 {
         font-size: 16px;
+    }
+
+    /* footer starts */
+    .footer{
+        height: 700px;
+    }
+    
+    .footer-left, .footer-middle, .footer-right {
+        padding-top: 60px;
+    }
+
+    .coffee-color-footer {
+       height: 700px;
+   }
+
+   .footer-left img {
+        right: auto;
+        left: 55%;
+        width: 20%;
+        top: 110px;
+    }
+
+    /*mabshuhe starts */
+    .pt-200 {
+        padding-top: 0;
+    }
+    
+    .mabshuhe {
+        height: 1200px;
+    }
+
+    .mabshuhe-inner {
+        position: relative;
+        top: 165px;
+        right: 0;
+    }
+
+    .mabshuhe-inner h2 {
+        right: 0;
+    }
+
+    .mab-img img {
+        position: relative;
+        width: 40%;
+        right: 5%;
+        top: 165px;
+        float: right;
+    }
+
+    .sem-mb-60 {
+        font-size: 26px;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
     }
 }
 
@@ -439,6 +499,61 @@
 
     .stimmen-inner h2 {
         font-size: 30px;
+    }
+
+    /* footer starts */
+    .footer{
+        height: 700px;
+    }
+    
+    .footer-left, .footer-middle, .footer-right {
+        padding-top: 60px;
+    }
+
+    .coffee-color-footer {
+       height: 700px;
+   }
+
+   .footer-left img {
+        right: auto;
+        left: 50%;
+        width: 15%;
+        top: 130px;
+    }
+
+    /*mabshuhe starts */
+    .pt-200 {
+        padding-top: 0;
+    }
+    
+    .mabshuhe {
+        height: 900px;
+    }
+
+    .mabshuhe-inner {
+        position: relative;
+        bottom: 30%;
+        right: 0;
+    }
+
+    .mabshuhe-inner h2 {
+        right: 0;
+    }
+
+    .mab-img img {
+        position: relative;
+        width: 40%;
+        right: 5%;
+        top: 50%;
+        float: right;
+    }
+
+    .sem-mb-60 {
+        font-size: 36px;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
     }
 }
 
@@ -660,6 +775,61 @@
     .stimmen-inner h2 {
         font-size: 30px;
     }
+
+     /* footer starts */
+    .footer{
+        height: 700px;
+    }
+    
+    .footer-left, .footer-middle, .footer-right {
+        padding-top: 60px;
+    }
+
+    .coffee-color-footer {
+       height: 700px;
+    }
+
+   .footer-left img {
+        right: auto;
+        left: 50%;
+        width: 15%;
+        top: 130px;
+    }
+
+    /*mabshuhe starts */
+    .pt-200 {
+        padding-top: 0;
+    }
+    
+    .mabshuhe {
+        height: 900px;
+    }
+
+    .mabshuhe-inner {
+        position: relative;
+        bottom: 30%;
+        right: 0;
+    }
+
+    .mabshuhe-inner h2 {
+        right: 0;
+    }
+
+    .mab-img img {
+        position: relative;
+        width: 40%;
+        right: 5%;
+        top: 50%;
+        float: right;
+    }
+
+    .sem-mb-60 {
+        font-size: 36px;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
+    }
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -873,6 +1043,34 @@
     .stimmen-inner h2 {
         font-size: 50px;
     }
+
+    /* footer starts */
+    .coffee-color-footer {
+        height: 800px;
+    }
+
+    .sem-foot-60 {
+        font-size: 40px;
+    }
+
+    .footer-left img {
+        right: 2%;
+        width: 28%;
+        top: 260px;
+    }
+
+    /*mabshuhe starts */
+    .mabshuhe {
+        height: 900px;
+    }
+
+    .sem-mb-60 {
+        font-size: 36px;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -920,6 +1118,10 @@
     /* decorations */
     .deco {
         top: 716px;
+    }
+
+    .deco2 {
+        top: 500px;
     }
 
     .stitch{
@@ -1023,6 +1225,15 @@
     .py-st-300 {
         padding: 200px 0;
     }
+
+    /* footer starts */
+    .coffee-color-footer {
+        height: 800px;
+    }
+
+    .footer-left img {
+        right: -15px;
+    }
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
@@ -1109,12 +1320,23 @@
         height: 400px;
         min-height: 360px;
     }
+
+    /* footer starts */
+    .footer-left img {
+        left: 70%;
+    }
+
+    /* mabshuhe starts */
+    .mabshuhe {
+        height: 1400px;
+    }
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
 	.sem-124 {
-        font-size: 44px;
+        font-size: 40px;
+        line-height: 40px;
     }
 
     .mt-lei-300{
@@ -1162,5 +1384,10 @@
 
     .h-sm{
         height: 800px;
+    }
+
+    /* footer starts */
+    .footer-left img {
+        left: 60%;
     }
 }
