@@ -202,6 +202,18 @@
     .repair-item img {
         width: 100%;
     }
+
+    /* manufaktur starts */
+    .manufaktur{
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+
+    .mt-mf-300 {
+        margin-top: 180px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -373,6 +385,18 @@
 
     .repair-item img {
         width: 60%;
+    }
+
+    /* manufaktur starts */
+    .manufaktur{
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+
+    .mt-mf-300 {
+        margin-top: 180px;
     }
 }
 
@@ -562,6 +586,18 @@
     .leistungen {
         height: 724px;
     }
+
+    /* manufaktur starts */
+    .manufaktur{
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+
+    .mt-mf-300 {
+        margin-top: 180px;
+    }
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -745,6 +781,18 @@
     .leistungen {
         height: 724px;
     }
+
+    /* manufaktur starts */
+    .manufaktur{
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+
+    .mt-mf-300 {
+        margin-top: 150px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -816,7 +864,7 @@
     /* hero starts */
     .hero {
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         width: 100%;
         height: 940px;
     }
@@ -876,6 +924,14 @@
 
     .leistungen {
         height: 824px;
+    }
+
+    /* manufaktur starts */
+    .manufaktur{
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 825px;
     }
 }
   

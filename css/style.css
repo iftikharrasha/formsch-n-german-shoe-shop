@@ -533,3 +533,13 @@ nav .show {
     top: 764px;
     right: 45%;
 }
+
+/* manufaktur starts */
+.manufaktur{
+    background-image: url(../img/manufaktur.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1080px;
+}
