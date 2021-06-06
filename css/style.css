@@ -98,6 +98,10 @@ a, select , input , textarea , button{
 	background-color: #a68260;
 }
 
+.bg-tag-2{
+    background-color: #F8F6F1;
+}
+
 /* fonts */
 .sem-200 {
 	font-family: 'Playfair Display', serif;
@@ -562,7 +566,6 @@ nav .show {
 
 /* zuliebe starts */
 .zuliebe{
-    background-color: #fff;
     overflow: hidden;
 }
 
@@ -579,7 +582,10 @@ nav .show {
 
 /* stimmen starts */
 .stimmen{
-    background-color: #fff;
+    background-image: url(../img/back-floral.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .stimmen-inner {
@@ -588,6 +594,7 @@ nav .show {
     left: 10%;
     padding: 50px 200px;
     border: 2px solid #A68260;
+    background-color: #fff;
 }
 
 .responsive3 .slick-prev {
@@ -598,4 +605,46 @@ nav .show {
 .responsive3 .slick-next {
     right: 2%;
     z-index: 1;
+}
+
+/* footer starts */
+.footer{
+    background-image: url(../img/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.coffee-color-footer{
+    height: 700px;
+}
+
+.footer-left, .footer-middle, .footer-right{
+    padding: 197px 0;
+}
+
+.footer-left img {
+    position: absolute;
+    right: 46px;
+    top: 296px;
+}
+
+.social-icons-footer {
+    position: relative;
+    z-index: 1;
+}
+
+.social-icons-footer ul{
+    display: flex;
+    margin-top: 15px;
+}
+
+.social-icons-footer ul li{
+    margin-right: 15px;
+}
+
+.social-icons-footer ul li a{
+	color: #808080;
+    font-size: 40px;
 }
