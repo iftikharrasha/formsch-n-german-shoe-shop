@@ -1,3 +1,4 @@
+
 const nav = document.querySelector("nav");
 const burgerSvg = document.querySelectorAll("rect");
 const menu = document.querySelector("ul");
@@ -29,3 +30,10 @@ hamburger.onclick = function () {
   burgerSvg[1].classList.toggle("middle");
   burgerSvg[2].classList.toggle("bottom");
 };
+
+
+AOS.init({
+  duration: 800,
+  easing: 'ease',
+  once: true
+});

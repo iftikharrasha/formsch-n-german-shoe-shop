@@ -38,6 +38,14 @@ a, select , input , textarea , button{
 	outline: none !important;
 }
 
+.overflowX {
+	overflow-x: hidden;
+}
+
+.overflowY {
+	overflow-y: hidden;
+}
+
 .c_custom{
 	max-width: 1640px !important;
 }
@@ -395,6 +403,10 @@ nav .show {
     line-height: 0;
 }
 
+.slick-dots{
+    width: 95%;
+}
+
 .responsive1 .slick-prev {
     z-index: 9999;
     top: 668px;
@@ -418,8 +430,8 @@ nav .show {
     border: 1px solid #a68260;
 }
 
-.slick-dots {
-    width: 90%;
+.responsive3 .slick-dots {
+    margin-bottom: 40px;
 }
 
 .slick-dots li button {

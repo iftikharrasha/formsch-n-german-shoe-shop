@@ -76,7 +76,7 @@
     }
 
     .menu {
-        width: 100vw;
+        width: 85vw;
         height: 100vh;
     }
 
@@ -1112,7 +1112,7 @@
 
     /* footer starts */
     .coffee-color-footer {
-        height: 800px;
+        height: 700px;
     }
 
     .sem-foot-60 {
@@ -1150,7 +1150,7 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1300px) and (max-width: 1441.98px){
+@media (min-width: 1300px) and (max-width: 1531.98px){
     .reg-24 {
         font-size: 21px;
     }
@@ -1304,7 +1304,7 @@
 
     /* footer starts */
     .coffee-color-footer {
-        height: 800px;
+        height: 700px;
     }
 
     .footer-left img {
@@ -1313,7 +1313,7 @@
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
-@media (min-width: 1442px) and (max-width: 2499.99px) {
+@media (min-width: 1532px) and (max-width: 2499.99px) {
   /* default screen */
   .social-icons ul li a {
         font-size: 30px;
@@ -1348,6 +1348,11 @@
     .btn-tag-1:last-child {
         display: block;
         margin-top: 10px;
+    }
+
+    /* header starts */
+    .backgrounColorToggle {
+        margin-left: 18% !important;
     }
 
     /* decoration starts */
@@ -1393,8 +1398,13 @@
     }
 
     .m-item-details {
-        height: 400px;
+        height: 360px;
         min-height: 360px;
+        padding: 43px 10px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 14px;
     }
 
     /* footer starts */
